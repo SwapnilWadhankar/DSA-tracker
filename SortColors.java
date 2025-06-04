@@ -9,7 +9,7 @@ public class SortColors {
     public static void sortColors(int[] nums){
         int countZeroes=0;
         int countOnes=0;
-        int countTwos=0;
+
 
         for(int i=0;i<nums.length;i++){
             if(nums[i]==0){
@@ -17,9 +17,6 @@ public class SortColors {
             }
             if(nums[i]==1){
                 countOnes++;
-            }
-            if(nums[i]==2){
-                countTwos++;
             }
         }
         for(int i=0;i<countZeroes;i++){
