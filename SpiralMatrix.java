@@ -36,6 +36,7 @@ public class SpiralMatrix {
             }
             right--;
 
+
             if(top<=bottom){
                 for(int i=right;i>=left;i--){
                     ans.add(matrix[bottom][i]);
