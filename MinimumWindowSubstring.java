@@ -16,6 +16,8 @@ public class MinimumWindowSubstring {
             mpt.put(c, mpt.getOrDefault(c, 0) + 1);
         }
 
+        
+
         int cur = 0, total = mpt.size();
         int i = 0, j = 0, res = Integer.MAX_VALUE;
         int start = 0, end = 0;
