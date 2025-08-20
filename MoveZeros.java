@@ -18,7 +18,6 @@ public class MoveZeros {
             nums[count]=0;
             count++;
         }
-
     }
     public static void swap(int[] nums,int i, int j){
         int temp = nums[i];
